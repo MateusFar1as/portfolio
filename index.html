@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <header>
+    <span>MATEUS FARIAS</span>
+    <nav>
+      <ul>
+        <li><a href="#home" class="headerLinks">HOME</a></li>
+        <li><a href="#about" class="headerLinks">SOBRE</a></li>
+        <li><a href="#projects" class="headerLinks">PROJETOS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="homeText">
+        <span>Olá, me chamo</span>
+        <span>MATEUS FARIAS</span>
+        <span>Desenvolvedor</span>
+        <div class="homeSociais">
+          <a href="https://www.linkedin.com/in/mateus-farias-39438b206/" target="_blank">Linkedin</a>
+          <a href="https://github.com/MateusFar1as" target="_blank">Github</a>
+        </div>
+        <div class="homeLight"></div>       
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="navAbout">
+        <button class="buttonSobre buttonSelected" onclick="buttonS()">SOBRE</button><!--
+        --><button class="buttonHabilidade" onclick="buttonH()">HABILIDADES</button>
+      </div>
+      <div class="folder">
+        <div class="paper">
+          <span class="sobre">
+            Meu nome é Mateus e atualmente estou cursando ciência da
+            computação, onde tive a oportunidade de participar da empresa júnior da faculdade,
+            atuando na parte de desenvolvimento front-end. A Tecnologia sempre esteve presente em minha vida,
+            a partir desse interesse, pude conhecer a área de desenvolvimento de software.
+          </span>
+
+          <div class="habilidades">
+            <div>
+              <img src="imgs/logo-html.png" alt="">
+              <p>HTML</p>
+            </div>
+            <div>
+              <img src="imgs/logo-css.png" alt="">
+              <p>CSS</p>
+            </div>
+            <div>
+              <img src="imgs/logo-javascript.png" alt="">
+              <p>JavaScript</p>
+            </div>
+            <div>
+              <img src="imgs/logo-sql.png" alt="">
+              <p>SQL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="project">
+        <img src="imgs/pag-login.png" alt="">
+        <span>Projeto replicando uma página de login.</span>
+        <span>Utilizado: HTML, CSS.</span>
+        <div class="buttonsProject">
+          <a href="https://mateusfar1as.github.io/Pag-Login/" target="_blank">Run</a>
+          <a href="https://github.com/MateusFar1as/Pag-Login" target="_blank">Code</a>          
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="imgs/pag-jogoCG.png" alt="">
+        <span>Projeto jogo desviar de cones.</span>
+        <span>Utilizado: HTML, CSS, JS.</span>
+        <div class="buttonsProject">
+          <a href="https://mateusfar1as.github.io/projetoJogoCG/" target="_blank">Run</a>
+          <a href="https://github.com/MateusFar1as/projetoJogoCG" target="_blank">Code</a>          
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="imgs/pag-temperatura.png" alt="">
+        <span>Projeto para checar temperatura de cidades usando api.openweathermap.</span>
+        <span>Utilizado: REACTJS.</span>
+        <div class="buttonsProject">
+          <a href="https://github.com/MateusFar1as/API-Tempo-React" target="_blank">Code</a>          
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="imgs/jogo_memoria.png" alt="">
+        <span>Projeto jogo memória.</span>
+        <span>Utilizado: HTML, CSS, JS.</span>
+        <div class="buttonsProject">
+          <a href="https://mateusfar1as.github.io/Jogo_Memoria/" target="_blank">Run</a>
+          <a href="https://github.com/MateusFar1as/Jogo_Memoria" target="_blank">Code</a>          
+        </div>
+      </div>
+    </section>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
