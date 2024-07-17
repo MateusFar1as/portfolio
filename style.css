@@ -182,6 +182,12 @@ header span, .headerLinks {
     font-size: 24px;
 }
 
+.habilidades {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .habilidades, .curriculo {
     display: none;
 }
@@ -194,7 +200,7 @@ header span, .headerLinks {
 }
 
 .habilidades div img {
-    height: 150px;
+    height: 120px;
 }
 
 /* Projects Section */
