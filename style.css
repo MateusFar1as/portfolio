@@ -184,6 +184,7 @@ header span, .headerLinks {
 
 .habilidades {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -200,7 +201,7 @@ header span, .headerLinks {
 }
 
 .habilidades div img {
-    height: 120px;
+    height: 100px;
 }
 
 /* Projects Section */
@@ -215,7 +216,7 @@ header span, .headerLinks {
 
 .project {
     background-color: gray;
-    height: 375px;
+    height: 400px;
     width: 47%;
     border-radius: 4%;
     display: flex;
